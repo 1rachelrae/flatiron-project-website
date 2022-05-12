@@ -1,17 +1,91 @@
-body {
-    background-color:#0000;
-    color: #000;
-    }
-.banner {
-    font-family: fantasy;
+body{
+    background:scroll;
+    color:white;
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.header {
+    border-color: lavenderblush;
+    border-width: 2px;
+    border-style: solid;
+   border-radius: 25px;
+   padding: 10px;
+   width: 50%;
+   content: center;
+   box-shadow: 2px 2px lightseagreen;
+   text-align: right;
+   background-image: url(images/delicate-flowers.jpeg);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.72;
+   font-size: 35px;
+   font-family: fantasy;
+}
+   
+}
+.about-me {
+    border: 2px solid lightcyan;
+    width: 50%;
+    content: center;
+    padding: 5px;
+    margin: auto;
+}
+.image:hover{
+    opacity: 0.75;
+}
+li{
+float: right;
+list-style: none;
+margin:0px;
+padding:5px;
+display: block;
+text-decoration: none;
+}
+nav{
+    margin:10px 10px;
+}
+li {
+    text-decoration: none;
+}
+a:link{
+    color: rgba(78, 208, 165, 0.734);
+}
+a:visited {
+    color:red;
+}
+li a:active{
+    color:green;
+}
+a:hover{
+    color: darksalmon;
+    text-transform: uppercase;
+}
+table , th, td{
+    border: 2.5px solid lavenderblush;
+    border-top-left-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 50%;
+    margin:25%;
+    
+}
+th {
+    color:lightyellow;
+    text-transform: uppercase;
+
+}
+.contact {
+    margin: auto;
+    font-style: italic;
     text-align: center;
 }
-.topnav{
-    text-align:center;
-    margin: 5px;
-    padding:25px;
-}
-a:{
-    margin:40px;
-    color:lightgray;
+.contact-page{
+    background-image: url(images/delicate-flowers.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
 }
