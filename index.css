@@ -1,9 +1,11 @@
 body{
-    background:scroll;
+    /* background:scroll; */
     color:white;
     background-color: antiquewhite;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin: 10px;
+   align-items: center;
+
 }
 .header {
     border-color: lavenderblush;
@@ -11,7 +13,9 @@ body{
     border-style: solid;
    border-radius: 25px;
    padding: 10px;
-   width: 50%;
+   width: 70%;
+   height: 550px;
+   margin-left: -205px;
    content: center;
    box-shadow: 2px 2px lightseagreen;
    text-align: right;
@@ -41,15 +45,16 @@ float: right;
 list-style: none;
 margin:0px;
 padding:5px;
-display: block;
+position: relative;
+/* display: block; */
 text-decoration: none;
+z-index: 11;
 }
 nav{
     margin:10px 10px;
 }
-li {
-    text-decoration: none;
-}
+
+    
 a:link{
     color: rgba(78, 208, 165, 0.734);
 }
@@ -74,6 +79,9 @@ table , th, td{
     margin:25%;
     
 }
+.table {
+    border-radius: 25px;
+}
 th {
     color:lightyellow;
     text-transform: uppercase;
@@ -91,7 +99,7 @@ th {
 }
 .about-me {
     border: 2px solid lightslategray;
-    position: absolute;
+    /* position: absolute; */
     padding: 5px;
     border-bottom-right-radius: 60px;
     border-top-right-radius:10px;
@@ -99,8 +107,10 @@ th {
     border-bottom-left-radius: 10px;
     text-align: center;
     box-shadow: 1px -1px 1px 1px goldenrod;
-    width: 155%;
-    height: 195%;
+    /* width: 155%; */
+    width: 80%;
+    height: auto;
+    margin-left: 250px;
     top: 0;
     left: 0;
     opacity: 0.7;
@@ -117,16 +127,30 @@ th {
     color:white;
 }
 .container {
-    height: 250px;
-    width: 250px;
+    /*height: 250px;
+    width: 250px;*/
     position: absolute;
     margin:-30px;
+    margin-left:300px;
     z-index: 10;
     display: flex;
+    flex-direction: column;
 }
 .right-image {
-    float: inline-end;
-    opacity: .25;
-    width:auto;
-    position: fixed;
+    /* float: ; */
+    opacity:5;
+    width:100px;
+    height:100px;
+    /* position: absolute; */
+    margin-left: 130px;
 }
+/* .firstdiv{ */
+    /* .right-images { */
+        /* float: right ;
+        width:400px;
+        height: 200px;
+        /* position: absolute; */
+        /* margin-left: 850px;
+        left: 0px;
+        opacity: .75; */
+    /* } */ 
